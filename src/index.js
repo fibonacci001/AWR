@@ -9,12 +9,15 @@ import "./assets/css/react-odometer-theme.css";
 import "./assets/css/default.css";
 import "./assets/css/style.css";
 import "./assets/css/responsive.css";
+import { HashRouter  } from 'react-router-dom';
 
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
+  <HashRouter>
+<App />
+  </HashRouter>
+    
+  
 );
